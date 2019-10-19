@@ -15,7 +15,7 @@ public class Draw extends JPanel
     public Draw()
     {
         setBackground(Color.lightGray);
-        demoP = new DemoPlayer(20,20);
+        demoP = new DemoPlayer(100,20);
 
     }
 
