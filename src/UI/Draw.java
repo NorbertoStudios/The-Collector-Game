@@ -10,6 +10,7 @@ import java.awt.*;
 ////    
 public class Draw extends JPanel
 {
+    ////
     DemoPlayer demoP;
 
     public Draw()
