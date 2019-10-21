@@ -10,6 +10,7 @@ public class Movement
 
     public Movement(double x, double y, int angle)
     {
+        System.out.println("IMHH");
         this.x      = x;
         this.y      = y;
         this.angle  = angle;

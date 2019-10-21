@@ -1,5 +1,7 @@
 package UI;////
 
+import Graphics.Game;
+
 import javax.swing.*;
 
 ////    Created     10/19/19, 11:39 AM
@@ -14,7 +16,7 @@ public class Window extends JFrame
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
-        add(new Draw());
+        add(new Game());
 
     }
 

@@ -1,6 +1,7 @@
 package UI;////
 
 import Player.*;
+import Graphics.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,22 +9,17 @@ import java.awt.*;
 ////    Created     10/19/19, 12:18 PM
 ////    By:         Norberto Studios
 ////    
-public class Draw extends JPanel
+public class DrawJPanel extends JPanel
 {
     ////
-    DemoPlayer demoP;
+    Game game;
 
-    public Draw()
+    public DrawJPanel()
     {
         setBackground(Color.lightGray);
-        demoP = new DemoPlayer(100,20);
-
+        game = new Game();
     }
 
 
-    public void paint(Graphics g)
-    {
-        demoP.draw(g);
-    }
 
 }
